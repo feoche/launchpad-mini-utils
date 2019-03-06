@@ -1,0 +1,19 @@
+{
+  "name": "lp-utils",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "feoche <francoiseoche@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm app.js"
+  },
+  "engines": {
+    "node": "^10.11.0",
+    "npm": ">=5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "esm": "^3.0.77",
+    "launchpad-mini": "^2.1.2"
+  }
+}
